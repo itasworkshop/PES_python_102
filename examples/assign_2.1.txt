@@ -1,0 +1,17 @@
+1) Print out your bio data in python?
+Name
+Rollno
+College Name
+Voting eligibilty
+
+2) perform below calculations in python
+
+radious = 5
+i) calculate area of circle.
+ii) calculate circumference of circle.
+
+3) WAP to cacluate multiplication of two numbers?
+
+4) WAP to calculte wheather a student is passed or failed?
+
+5) WAP to calculate if a given number is even or odd?

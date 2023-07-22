@@ -1,3 +1,89 @@
 Python
 
 what is python?
+
+>>> print("hello world")
+hello world
+>>> print('hello world')
+hello world
+>>> print('hello world how are you?')
+hello world how are you?
+>>> a = 10
+>>> a = 20
+>>> a
+20
+>>> a = "Cow"
+>>> a
+'Cow'
+>>> a
+'Cow'
+>>> a = 20
+>>> b = 30
+>>> a+b
+50
+>>> c = a+b
+>>> c
+50
+>>> a = true
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined
+>>> a = True
+>>> a
+True
+>>> a = False
+>>> a
+False
+>>> c = a+b
+>>> a = 10
+>>> b = 20
+>>> c = a+b
+>>> print(c)
+30
+>>>
+
+
+Function in python
+function is a named block which accepts input, performs calculations and returns result.
+
+>>> a = 20
+>>> b = 30
+>>> c = a+b
+>>> c
+50
+>>> a = 45
+>>> b = 67
+>>> c = a+b
+>>> c
+112
+>>> def addition(a,b):
+...     result = a+b
+...     return result
+...
+>>> print(addition(100,200))
+300
+>>> print(addition(100,24))
+124
+>>>
+
+Controll Statements
+if-else
+used to determine flow of program execution depending on given contion.
+
+>>> age = 19
+>>> if(age>=18):
+...     print("yes , can vote.")
+... else:
+...     print("No , can not vote.")
+...
+yes , can vote.
+>>>
+
+
+
+
+
+
+
+
+
