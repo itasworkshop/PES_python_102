@@ -1,0 +1,40 @@
+Controlled Statement
+>>> age = 25
+>>> if(age>=18):
+...     print("yes,can vote")
+... elif(age> 18 and age<=35):
+...     print("yes,can vote twice.")
+... else:
+...     print("no,can not ^Svote")
+...
+yes,can vote
+>>>
+
+Advanced Data types in python
+
+1) List
+comma sepearated items in sqaure bracket
+
+>>> mylist = [1,2,4,57,34]
+>>> print(mylist)
+[1, 2, 4, 57, 34]
+>>> for i in mylist:
+...     print(i)
+...
+1
+2
+4
+57
+34
+>>>
+
+
+
+
+
+
+
+
+
+
+

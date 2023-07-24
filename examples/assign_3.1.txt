@@ -1,0 +1,13 @@
+1) WAP to calculate student grade based on below rules
+-- 90 to 100 --> A
+-- 80 to 90 --> B
+-- 70 to 80 --> C
+Failed
+
+2) WAP to calculate sqaure of all the items in a given list.
+
+3) WAP to find even items in a given list.
+
+4) WAP to perform addition of all the list items.
+
+5) WAP to perform addition of all the odd items in a given list.
