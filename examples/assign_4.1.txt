@@ -1,0 +1,7 @@
+1) WAP to find list of even items from a given list.
+
+2) WAP to print list items using while loop.
+
+3) WAP to print list items in reverse order.
+
+mylist.reverse()

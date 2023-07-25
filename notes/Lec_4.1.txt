@@ -1,0 +1,31 @@
+List are indexed 
+Lists are mutable
+
+>>> mylist = [1,2,67,45,78]
+>>> mylist
+[1, 2, 67, 45, 78]
+>>> mylist[0]
+1
+>>> mylist[1]
+2
+>>> mylist[4]
+78
+>>> mylist = [1,2,67,"cow",True]
+>>> mylist
+[1, 2, 67, 'cow', True]
+>>> mylist[3]
+'cow'
+>>> mylist[3] = 77
+>>> mylist
+[1, 2, 67, 77, True]
+
+
+Methods of list
+
+1) append()
+adding item in list at last position
+>>> mylist.append(11)
+>>> mylist
+[1, 2, 67, 77, True, 11]
+
+2) remove()
