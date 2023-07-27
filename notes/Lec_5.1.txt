@@ -1,0 +1,38 @@
+>>> mylist  = [1,2,3,5,6]
+>>> mylist
+[1, 2, 3, 5, 6]
+>>> mylist.append(45)
+>>> mylist
+[1, 2, 3, 5, 6, 45]
+>>> mylist.insert(3,77)
+>>> mylist
+[1, 2, 3, 77, 5, 6, 45]
+>>> mylist.remove()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: list.remove() takes exactly one argument (0 given)
+>>> mylist.remove(5)
+>>> mylist
+[1, 2, 3, 77, 6, 45]
+>>> mylist.pop()
+45
+>>> mylist
+[1, 2, 3, 77, 6]
+>>> mylist.pop()
+6
+>>> mylist
+[1, 2, 3, 77]
+>>>
+
+
+Tuple in python
+comma seperated items but in regular brackets, are immutable it means once you create a tuple you can not change it.
+
+>>> mytup = (1,2,43,5,7,8)
+>>> mytup[2]
+43
+>>> mytup[2] = 55
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>>

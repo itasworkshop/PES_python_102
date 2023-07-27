@@ -1,0 +1,5 @@
+1) WAP to find all the even items from a given tuple.
+
+2) WAP to find tuple of even items from a given tuple.
+
+3) WAP to find tuple of even positioned items and odd positioned items from a given tuple.

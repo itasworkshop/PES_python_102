@@ -1,0 +1,66 @@
+1) WAP to remove duplicate names from a given list of names.
+
+mylist = ["suraj","raj","tom","tom"]
+
+2) WAP to create two sets of even items and odd items from below set
+
+myset = {1,2,4,5,6,7,8,9}
+
+3) 
+
+
+output = {3,5,6}
+
+>>> myset1 = {1,2,3,5,6}
+>>> myset2 = {3,5,6,7,8}
+
+1) Union
+>>> myset1|myset2
+{1, 2, 3, 5, 6, 7, 8}
+
+2) Intersection
+>>> myset1&myset2
+{3, 5, 6}
+
+3) Difference
+>>> myset1 - myset2
+{1, 2}
+>>> myset2 - myset1
+{8, 7}
+>>>
+
+4) WAP to create new set out of given set only having items in set1 but not in set2.
+
+5) WAP to create new set out of two given set having items both.(union)
+
+6) WAP to print all students with their respective grades
+{"raj":75,"suraj":68,"Tom":87}
+
+{"Raj":"C","Suraj":"Failed","Tom":"B"}
+
+7) WAP to print all students with their respective grades using function
+{"raj":75,"suraj":68,"Tom":87}
+
+{"Raj":"C","Suraj":"Failed","Tom":"B"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

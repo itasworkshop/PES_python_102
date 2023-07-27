@@ -1,0 +1,121 @@
+3) Set Data Type in Ptyhon
+
+set are unordered , collection of data which doesn't allow duplicates.
+
+1) union of set
+2) Intersection of set
+3) Difference
+
+>>> myset = {1,2,3,5,6,7}
+>>> myset
+{1, 2, 3, 5, 6, 7}
+>>> myset = {1,2,3,5,6,7,3,45,6,7,7}
+>>> myset
+{1, 2, 3, 5, 6, 7, 45}
+>>> myset[2]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'set' object is not subscriptable
+>>> myset.add(67)
+>>> myset
+{1, 2, 3, 67, 5, 6, 7, 45}
+>>> myset.add(67)
+>>> myset
+{1, 2, 3, 67, 5, 6, 7, 45}
+>>> myset.clear()
+>>> myset
+set()
+>>> myset1 = {1,2,3,4,5,6,7}
+>>> myset1
+{1, 2, 3, 4, 5, 6, 7}
+>>> myset1 = {5,6,7,8,9,0,11}
+>>> myset2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'myset2' is not defined
+>>> myset1 = {1,2,3,4,5,6,7}
+>>> myset1
+{1, 2, 3, 4, 5, 6, 7}
+>>> myset2 = {5,6,7,8,9,0,11}
+>>> myset2
+{0, 5, 6, 7, 8, 9, 11}
+>>> myset1|myset2
+{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11}
+>>> myset1&myset2
+{5, 6, 7}
+>>> myset1 - myset2
+{1, 2, 3, 4}
+>>> myset2 - myset1
+{0, 8, 11, 9}
+
+
+4) Dictionary Data in Python
+Map
+key-value pair
+
+>>> students = {111:"Rajesh",222:"Suraj",333:"Tom"}
+>>> students
+{111: 'Rajesh', 222: 'Suraj', 333: 'Tom'}
+>>> students[1]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 1
+>>> students[111]
+'Rajesh'
+>>> students[333]
+'Tom'
+>>> students[444]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 444
+>>> for i in students:
+...     print(i)
+...
+111
+222
+333
+>>> for i,j in students.items():
+...     print(i,j)
+...
+111 Rajesh
+222 Suraj
+333 Tom
+>>> for i,j in students.keys():
+...     print(i,j)
+...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: cannot unpack non-iterable int object
+>>> for i in students.items():
+...
+  File "<stdin>", line 2
+
+    ^
+IndentationError: expected an indented block
+>>> for i in students.keys():
+...     print(i)
+...
+111
+222
+333
+>>> for i in students.values():
+...     print(i)
+...
+Rajesh
+Suraj
+Tom
+>>> students = {111:"Rajesh",222:"Suraj",333:"Tom",333:"Sam"}
+>>> students
+{111: 'Rajesh', 222: 'Suraj', 333: 'Sam'}
+>>> students[444] = "John"
+>>> students
+{111: 'Rajesh', 222: 'Suraj', 333: 'Sam', 444: 'John'}
+>>>
+
+
+
+
+
+
+
+
