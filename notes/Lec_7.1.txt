@@ -1,0 +1,21 @@
+--> pass keyword
+>>> age = 25
+>>> if age>18:
+...     print("yes")
+... else:
+...     print("no")
+...
+yes
+>>> if age>18:
+...     pass
+... else:
+...     print("no")
+...
+>>>
+
+concatenation in python
+>>> fname = "Rajesh"
+>>> lname = "Reddy"
+>>> fname+lname
+'RajeshReddy'
+>>>
